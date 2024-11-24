@@ -23,7 +23,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', '')).split() #SAMPLE PIC
 
 NOR_IMG = environ.get("NOR_IMG", "")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/CinemaKandaloLinks")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/")
 SPELL_IMG = environ.get("SPELL_IMG", "")
 
 
@@ -66,14 +66,14 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SM:SM@cluster0.xvvtb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SHAMMAS:SHAMMAS@cluster0.wl2xo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_NAME = environ.get('DATABASE_NAME', "ckfiltergroupbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ckcollection')
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-O_DB_URI = environ.get('O_DB_URI', "")   # This Db Is For Other Data Store
-F_DB_URI = environ.get('F_DB_URI', "")   # This Db Is For File Data Store
-S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When First Db Is Going To Be Full.
+O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://SM:SM@cluster0.xvvtb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
+F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://SHAMMAS:SHAMMAS@cluster0.wl2xo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
+S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://SHAMMAS:SHAMMAS@cluster0.wl2xo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
 # Premium And Referal Settings
