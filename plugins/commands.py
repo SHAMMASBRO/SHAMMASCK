@@ -99,7 +99,7 @@ async def start(client, message):
             return
         try:
             btn = [[
-                InlineKeyboardButton("❆ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
+                InlineKeyboardButton("📢 Request to Join Channel 📢", url=invite_link.invite_link)
             ]]
             if message.command[1] != "subscribe":
                 if REQUEST_TO_JOIN_MODE == True:
@@ -286,9 +286,9 @@ async def start(client, message):
                 if STREAM_MODE == True:
                     button = [[
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{CinemaKandalo}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=https://t.me/CinemaKandaloOfficial)
+                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CinemaKandaloOfficial)
                     ],[
-                        InlineKeyboardButton('', url="")
+                        InlineKeyboardButton('', url="https://t.me/")
                     ],[
                         InlineKeyboardButton("", url=download),
                         InlineKeyboardButton('', url=stream)
@@ -298,9 +298,9 @@ async def start(client, message):
                 else:
                     button = [[
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{CinemaKandalo}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=https://t.me/CinemaKandaloOfficial)
+                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CinemaKandaloOfficial)
                     ],[
-                        InlineKeyboardButton('', url="")
+                        InlineKeyboardButton('', url="https://t.me/")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
