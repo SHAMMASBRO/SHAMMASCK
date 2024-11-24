@@ -279,9 +279,9 @@ async def start(client, message):
                     await log_msg.reply_text(
                         text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                         quote=True,
-                        disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("", url=),  # we download Link
-                                                            InlineKeyboardButton('', url=)]])  # web stream Link
+                        disable_web_page_preview=False,
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("", url=download),  # we download Link
+                                                            InlineKeyboardButton('', url=stream)]])  # web stream Link
                     )
                 if STREAM_MODE == True:
                     button = [[
