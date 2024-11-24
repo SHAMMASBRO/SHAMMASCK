@@ -285,22 +285,22 @@ async def start(client, message):
                     )
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{CinemaKandalo}'),
+                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=https://t.me/CinemaKandaloOfficial)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/KingVJ01")
+                        InlineKeyboardButton('', url="")
                     ],[
-                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
-                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                        InlineKeyboardButton("", url=download),
+                        InlineKeyboardButton('', url=stream)
                     ],[
                         InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{CinemaKandalo}'),
+                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=https://t.me/CinemaKandaloOfficial)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/KingVJ01")
+                        InlineKeyboardButton('', url="")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -386,7 +386,7 @@ async def start(client, message):
                         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
                                                             InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
                     )
-                if STREAM_MODE == True:
+                if STREAM_MODE == False:
                     button = [[
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
@@ -468,7 +468,7 @@ async def start(client, message):
         pre = 'allfilesp' if settings['file_secure'] else 'allfiles'
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start={pre}_{file_id}")
         btn = [[
-            InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
+            InlineKeyboardButton('', url=g)
         ]]
         if settings['tutorial']:
             btn.append([InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))])
@@ -661,7 +661,7 @@ async def start(client, message):
     ],[
         InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
     ]]
-    if STREAM_MODE == True:
+    if STREAM_MODE == False:
         button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
@@ -1332,7 +1332,7 @@ async def nofsub(client, message):
         return await message.reply(f"<b>You are anonymous admin. Turn off anonymous admin and try again this command</b>")
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text("<b>This Command Work Only in group\n\nTry it in your own group</b>")
+        return await message.reply_text("No")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -1344,17 +1344,17 @@ async def nofsub(client, message):
         return
     else:
         pass
-    await save_group_settings(grpid, 'fsub', None)
+    await save_group_settings(grpid, 'fhy', None)
     await message.reply_text(f"<b>Successfully removed force subscribe from {title}.</b>")
 
-@Client.on_message(filters.command('fsub'))
+@Client.on_message(filters.command('fy'))
 async def fsub(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
         return await message.reply(f"<b>You are anonymous admin. Turn off anonymous admin and try again this command</b>")
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text("<b>This Command Work Only in group\n\nTry it in your own group</b>")
+        return await message.reply_text("No")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -1382,8 +1382,8 @@ async def fsub(client, message):
         if chat.type != enums.ChatType.CHANNEL:
             return await message.reply_text(f"<b>{id} is not channel.</b>")
         channels += f'{chat.title}\n'
-    await save_group_settings(grpid, 'fsub', fsub_ids)
-    await message.reply_text(f"<b>Successfully set force channels for {title} to\n\n{channels}\n\nYou can remove it by /nofsub.</b>")
+    await save_group_settings(grpid, 'fyp', fsub_ids)
+    await message.reply_text(f"Onn Podey")
         
 
 @Client.on_message(filters.command("add_premium"))
