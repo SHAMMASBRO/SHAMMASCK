@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
+    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/Shammas{}>{}</a></blockquote>
     
 ɪ ᴀᴍ【 ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ 】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ+└ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘+├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤+☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ</b>"""
 
@@ -19,7 +19,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/kingvj01'>ᴛᴇᴄʜ ᴠᴊ</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Shammas'>ᴛᴇᴄʜ ᴠᴊ</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -47,7 +47,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
 
-ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=VJ-{}
+ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=CK-{}
 
 ɪғ {} ᴜɴɪǫᴜᴇ ᴜsᴇʀ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ʀᴇғᴇʀᴀʟ ʟɪɴᴋ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴅᴅᴇᴅ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.
 
@@ -78,7 +78,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/vjupdates2/3)</code>
+<code>[Button Text](buttonurl:https://t.me/CinemaKandaloOfficial)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -110,10 +110,10 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
-my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KingVj01>☢VJ☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/vj_bots>☢Join my updateds☢</a></b> 
+ <b> Maintained by : <a href=https://t.me/CinemaKandalo></a></b>
+  
+  Join here : <a href=https://t.me/CinemaKandalo> Join my updateds </a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -225,7 +225,7 @@ Nᴀᴍᴇ - {}"""
 
     SHORTLINK_INFO = """
 
-🫵 Select Your Language And Earn Money 💰"""
+"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -248,9 +248,12 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """{file_name}
 
-<b> Size ⚙️: {file_size}</b>""" 
+╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
+➲ @CKUpdates1TG
+➲ @CinemaKandaloLinks
+╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╝""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -267,9 +270,9 @@ IMDb Data:
 🎛 Countries : <code>{countries}</code>
 
 
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+Hey 👋🏻 {mention}
 
-Requested by : {message.from_user.mention}</b>"""
+Here is what i found for your query {title}👇"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -475,12 +478,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
-████████╗███████╗███████╗██╗  ██╗    ╔██        ██╗       ██╗
-╚═ ██╔══╝██╔════╝██╔════╝██║  ██║     ║██      ██║        ██║
-   ██║    █████╗  ██║      ███████║      ║██    ██║         ██║
-   ██║    ██╔══╝  ██║      ██╔══██║       ║██  ██║  ╔██     ██║
-   ██║    ███████╗███████╗██║  ██║        ║████║   ║████████║
-   ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═╝        ╚════╝   ╚════════╝"""
+    """
  
     TAMIL_INFO = """
 ஏய் <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
@@ -727,40 +725,17 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Dev 1 [Owner of this bot ]<a href='https://t.me/KingVj01'>VJ</a>
+-Dev 1 [Owner of this bot ]<a href='https://t.me/shammas'></a>
 
--Dev 2 <a href='https://t.me/vjbots_bot'>VJ</a>
+-Dev 2 <a href='https://t.me/CKUpdates1TG'></a>
 
--Dev 3 <a href='https://t.me/vj_botz>VJ Botz</a>
+-Dev 3 <a href='https://t.me/CinemaKandalo></a>
 
-- Dev 4 <a href='https://t.me/vj_bots'>TEAM VJ</a>
+- Dev 4 <a href='https://t.me/CinemaKandaloLinks'></a>
 """
 
     RENAME_TXT = """
-🌌 <b><u>HOW TO SET THUMBNAIL</u></b>
-  
-•> /set_thumb - send any picture to automatically set thumbnail.
-•> /del_thumb use this command and delete your old thumbnail.
-•> /view_thumb use this command view your current thumbnail.
-
-📑 <b><u>HOW TO SET CUSTOM CAPTION</u></b>
-
-•> /set_caption - set a custom caption
-•> /see_caption - see your custom caption
-•> /del_caption - delete custom caption
-
-Example:- /set_caption 📕 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}
-
-✏️ <b><u>HOW TO RENAME A FILE</u></b>
-
-•> /rename - send any file and click rename option and type new file name and \nthen select [ document, video, audio ]👈 choice this.
 """
-
-    STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
-
-/stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
 
 
 # Don't Remove Credit @VJ_Botz
