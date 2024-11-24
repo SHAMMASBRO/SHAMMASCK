@@ -11,7 +11,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'CkFilterGroupBot')
-API_ID = int(environ.get('27326387', ''))
+API_ID = int(environ.get('API_ID', '27326387')
 API_HASH = environ.get('bde5a81c08ee3341ee953b714d297534', '')
 BOT_TOKEN = environ.get('7631626374:AAE7cZbp_h0eM36ceAyS68W-47uFTut-34U', "")
 
