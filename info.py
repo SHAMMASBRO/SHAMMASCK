@@ -20,11 +20,11 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7631626374:AAE7cZbp_h0eM36ceAyS68W-47uFTut
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 
 # This Pics Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', '')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() #SAMPLE PIC
 
-NOR_IMG = environ.get("NOR_IMG", "")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/")
-SPELL_IMG = environ.get("SPELL_IMG", "")
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
+SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 
 # Admins, Channels & Users
