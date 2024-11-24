@@ -11,7 +11,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'CkFilterGroupBot')
-API_ID = int(environ.get('API_ID', '27326387')
+API_ID = int(environ.get('API_ID', '27326387'))
 API_HASH = environ.get('API_HASH', 'bde5a81c08ee3341ee953b714d297534')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7631626374:AAE7cZbp_h0eM36ceAyS68W-47uFTut-34U")
 
@@ -28,7 +28,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "")
 
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('-1002458322893', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002458322893'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6639622980').split()]
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
